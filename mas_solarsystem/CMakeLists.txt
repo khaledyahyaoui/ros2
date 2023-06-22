@@ -11,6 +11,27 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+include_directories(include)
+add_executable(celestial_body_node src/celestial_body_node.cpp src/celestial_body.cpp)
+ament_target_dependencies(
+  celestial_body_node
+  rclcpp
+  std_msgs
+  geometry_msgs
+  visualization_msgs
+  tf2_ros
+)
+install(TARGETS celestial_body_node
+  DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY
+  launch cfg
+  DESTINATION share/${PROJECT_NAME}
+)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
