@@ -1,0 +1,54 @@
+soleil_node:
+  ros__parameters:
+    planet_name: soleil
+    parent_name: soleil
+    orbit_distance: 0
+    radius: 695700
+    revolution_period: 0
+    rotation_period: 0
+    inclination: 0
+    mass: 1.989
+    color: [255, 255, 0] # Couleur du Soleil en RVB (jaune)
+
+mercure_node:
+  ros__parameters:
+    planet_name: mercure
+    parent_name: soleil
+    orbit_distance: 57.6
+    radius: 2.4397
+    revolution_period: 88
+    rotation_period: 58.6
+    inclination: 0.03
+    mass: 3.3011
+    color: [139, 69, 19] # Couleur de Mercure en RVB (marron)
+
+venus_node:
+  ros__parameters:
+    planet_name: venus
+    parent_name: soleil
+    orbit_distance: 108.26
+    radius: 6.0518
+    revolution_period: 225
+    rotation_period: 243
+    inclination: 177.36
+    mass: 4.8675
+    color: [255, 165, 0] # Couleur de Vénus en RVB (orange)
+
+terre_node:
+  ros__parameters:
+    planet_name: terre
+    parent_name: soleil
+    orbit_distance: 149.6
+    radius: 6.3713
+    revolution_period: 365.25
+    rotation_period: 24
+    inclination: 23.44
+    mass: 5.97237
+    color: [0, 0, 255] # Couleur de la Terre en RVB (bleu)
+
+
+
+# Autres paramètres
+sun_radius: 695700
+sun_velocity: 230
+gravitational_constant: 6.674
