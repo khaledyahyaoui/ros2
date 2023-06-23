@@ -3,6 +3,8 @@
 
 #include <rclcpp/rclcpp.hpp>
 #include <visualization_msgs/msg/marker.hpp>
+#include <string>
+#include <vector>
 
 class CelestialBody : public rclcpp::Node
 {

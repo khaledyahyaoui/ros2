@@ -15,7 +15,8 @@ CelestialBody::CelestialBody()
     rotation_period_ =this->get_parameter("rotation_period").as_double();
     inclination_ =this->get_parameter("inclination").as_double();
     mass_ =this->get_parameter("mass").as_double();
-    this->get_parameter("color", color_); //as_double();
+
+//    this->get_parameter("color", color_); //as_double();
 //color_ =this->get_parameter("color").as_double();
 
 

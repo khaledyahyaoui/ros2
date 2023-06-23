@@ -1,0 +1,11 @@
+soleil_node:
+  ros__parameters:
+    planet_name: /soleil
+    parent_name: /map
+    orbit_distance: 0.0
+    radius: 695700.0
+    revolution_period: 0.0
+    rotation_period: 0.0
+    inclination: 0.0
+    mass: 1.989
+#    color: [1.0, 1.0, 0.0] # Couleur du Soleil en RVB (jaune)
