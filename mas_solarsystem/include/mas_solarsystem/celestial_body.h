@@ -8,12 +8,7 @@ class CelestialBody : public rclcpp::Node
 {
 public:
   CelestialBody();
-
-  SolarSystemParams getSolarSystemParams() const;
-
 private:
-  SolarSystemParams solar_system_params_;
-
   std::string planet_name_;
   std::string parent_name_;
   double orbit_distance_;
