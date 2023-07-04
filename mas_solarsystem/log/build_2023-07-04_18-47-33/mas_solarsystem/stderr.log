@@ -1,0 +1,53 @@
+In file included from [01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:1[m[K:
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/include/mas_solarsystem/celestial_body.h:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef __MAS_SOLARSYSTEM__CELESTIAL_BODY_H__
+      | 
+In file included from [01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body_node.cpp:3[m[K:
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/include/mas_solarsystem/celestial_body.h:1:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    1 | #ifndef __MAS_SOLARSYSTEM__CELESTIAL_BODY_H__
+      | 
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:[m[K In constructor ‘[01m[KCelestialBody::CelestialBody()[m[K’:
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:6:2:[m[K [01;31m[Kerror: [m[K‘[01m[Korbite_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+    6 |  [01;31m[Korbite_[m[K = this->get_parameter("radus").as_double();
+      |  [01;31m[K^~~~~~~[m[K
+      |  [32m[Kwrite[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   47 |     [01;31m[Ktf2[m[K::Quaternion orientation;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation[m[K’ was not declared in this scope
+   48 |     [01;31m[Korientation[m[K.setRPY(0.0, 0.0, angular_pos_);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:53:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kxx[m[K’?
+   53 |     transform_.transform.translation.x = [01;31m[Kx[m[K ;
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[Kxx[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:54:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   54 |     transform_.transform.translation.y = [01;31m[Ky[m[K;
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[Kyn[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:55:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope; did you mean ‘[01m[Kzz[m[K’?
+   55 |     transform_.transform.translation.z = [01;31m[Kz[m[K;
+      |                                          [01;31m[K^[m[K
+      |                                          [32m[Kzz[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:66:97:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishMarker[m[K’ is not a member of ‘[01m[KCelestialBody[m[K’
+   66 |  timer_pub_ =  this->create_wall_timer(std::chrono::milliseconds(50), std::bind(&CelestialBody::[01;31m[KpublishMarker[m[K, this));
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kxx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   42 |    double [01;35m[Kxx[m[K = radus_ * cos(angular_pos_);
+      |           [01;35m[K^~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:43:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   43 |     double [01;35m[Kyy[m[K = radus_ * sin(angular_pos_);
+      |            [01;35m[K^~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:44:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   44 |     double [01;35m[Kzz[m[K = 0.0;
+      |            [01;35m[K^~[m[K
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:[m[K In member function ‘[01m[Kvoid CelestialBody::pubMarkerTransform()[m[K’:
+[01m[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:83:38:[m[K [01;31m[Kerror: [m[K‘[01m[Korbite_[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+   83 | transform_.transform.translation.x = [01;31m[Korbite_[m[K * cos(angular_pos_);
+      |                                      [01;31m[K^~~~~~~[m[K
+      |                                      [32m[Kwrite[m[K
+gmake[2]: *** [CMakeFiles/celestial_body_node.dir/build.make:76: CMakeFiles/celestial_body_node.dir/src/celestial_body_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/celestial_body_node.dir/build.make:90: CMakeFiles/celestial_body_node.dir/src/celestial_body.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/celestial_body_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.001247] (mas_solarsystem) JobQueued: {'identifier': 'mas_solarsystem', 'dependencies': OrderedDict()}
+[0.001372] (mas_solarsystem) JobStarted: {'identifier': 'mas_solarsystem'}
+[0.041790] (mas_solarsystem) JobProgress: {'identifier': 'mas_solarsystem', 'progress': 'cmake'}
+[0.053470] (mas_solarsystem) JobProgress: {'identifier': 'mas_solarsystem', 'progress': 'build'}
+[0.053619] (mas_solarsystem) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/build/mas_solarsystem', '--', '-j2', '-l2'], 'cwd': '/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/build/mas_solarsystem', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khaled'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/khaled'), ('OLDPWD', '/home/khaled/workspace/ros2ws/src/ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '1008'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/khaled/workspace/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'khaled'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khaled'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/khaled/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/khaled-VirtualBox:@/tmp/.ICE-unix/974,unix/khaled-VirtualBox:/tmp/.ICE-unix/974'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4d220009_5444_48d8_91af_a117a375b829'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FFXH71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/khaled/workspace/ros2ws/install/robot_nano_hand_teleop:/home/khaled/workspace/ros2ws/install/mas_solarsystem:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/build/mas_solarsystem'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/khaled/workspace/ros2ws/install/robot_nano_hand_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/khaled/workspace/ros2ws/install/mas_solarsystem:/home/khaled/workspace/ros2ws/install/robot_nano_hand_teleop:/opt/ros/humble')]), 'shell': False}
+[0.097244] (-) TimerEvent: {}
+[0.189264] (mas_solarsystem) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target celestial_body_node\x1b[0m\n'}
+[0.197392] (-) TimerEvent: {}
+[0.270285] (mas_solarsystem) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/celestial_body_node.dir/src/celestial_body.cpp.o\x1b[0m\n'}
+[0.270753] (mas_solarsystem) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/celestial_body_node.dir/src/celestial_body_node.cpp.o\x1b[0m\n'}
+[0.297559] (-) TimerEvent: {}
+[0.398077] (-) TimerEvent: {}
+[0.498625] (-) TimerEvent: {}
+[0.599142] (-) TimerEvent: {}
+[0.699701] (-) TimerEvent: {}
+[0.800248] (-) TimerEvent: {}
+[0.900843] (-) TimerEvent: {}
+[1.002201] (-) TimerEvent: {}
+[1.102619] (-) TimerEvent: {}
+[1.204635] (-) TimerEvent: {}
+[1.305064] (-) TimerEvent: {}
+[1.307152] (mas_solarsystem) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:1\x1b[m\x1b[K:\n'}
+[1.307598] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/include/mas_solarsystem/celestial_body.h:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[1.307800] (mas_solarsystem) StderrLine: {'line': b'    1 | #ifndef __MAS_SOLARSYSTEM__CELESTIAL_BODY_H__\n'}
+[1.308027] (mas_solarsystem) StderrLine: {'line': b'      | \n'}
+[1.405216] (-) TimerEvent: {}
+[1.472790] (mas_solarsystem) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body_node.cpp:3\x1b[m\x1b[K:\n'}
+[1.473196] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/include/mas_solarsystem/celestial_body.h:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated #ifndef\n'}
+[1.473419] (mas_solarsystem) StderrLine: {'line': b'    1 | #ifndef __MAS_SOLARSYSTEM__CELESTIAL_BODY_H__\n'}
+[1.473619] (mas_solarsystem) StderrLine: {'line': b'      | \n'}
+[1.505383] (-) TimerEvent: {}
+[1.605984] (-) TimerEvent: {}
+[1.706667] (-) TimerEvent: {}
+[1.807226] (-) TimerEvent: {}
+[1.907857] (-) TimerEvent: {}
+[2.008409] (-) TimerEvent: {}
+[2.108850] (-) TimerEvent: {}
+[2.209476] (-) TimerEvent: {}
+[2.310041] (-) TimerEvent: {}
+[2.410705] (-) TimerEvent: {}
+[2.517050] (-) TimerEvent: {}
+[2.617769] (-) TimerEvent: {}
+[2.719854] (-) TimerEvent: {}
+[2.820482] (-) TimerEvent: {}
+[2.921136] (-) TimerEvent: {}
+[3.021742] (-) TimerEvent: {}
+[3.122373] (-) TimerEvent: {}
+[3.223067] (-) TimerEvent: {}
+[3.323634] (-) TimerEvent: {}
+[3.424277] (-) TimerEvent: {}
+[3.524843] (-) TimerEvent: {}
+[3.629744] (-) TimerEvent: {}
+[3.730772] (-) TimerEvent: {}
+[3.831403] (-) TimerEvent: {}
+[3.932144] (-) TimerEvent: {}
+[4.032730] (-) TimerEvent: {}
+[4.133418] (-) TimerEvent: {}
+[4.234025] (-) TimerEvent: {}
+[4.335204] (-) TimerEvent: {}
+[4.435834] (-) TimerEvent: {}
+[4.536456] (-) TimerEvent: {}
+[4.637018] (-) TimerEvent: {}
+[4.737634] (-) TimerEvent: {}
+[4.838223] (-) TimerEvent: {}
+[4.938918] (-) TimerEvent: {}
+[5.039619] (-) TimerEvent: {}
+[5.140201] (-) TimerEvent: {}
+[5.240858] (-) TimerEvent: {}
+[5.341451] (-) TimerEvent: {}
+[5.442050] (-) TimerEvent: {}
+[5.542912] (-) TimerEvent: {}
+[5.643765] (-) TimerEvent: {}
+[5.744392] (-) TimerEvent: {}
+[5.845042] (-) TimerEvent: {}
+[5.946315] (-) TimerEvent: {}
+[6.047330] (-) TimerEvent: {}
+[6.148106] (-) TimerEvent: {}
+[6.250809] (-) TimerEvent: {}
+[6.351299] (-) TimerEvent: {}
+[6.451769] (-) TimerEvent: {}
+[6.552291] (-) TimerEvent: {}
+[6.652763] (-) TimerEvent: {}
+[6.753317] (-) TimerEvent: {}
+[6.854100] (-) TimerEvent: {}
+[6.954710] (-) TimerEvent: {}
+[7.055156] (-) TimerEvent: {}
+[7.166198] (-) TimerEvent: {}
+[7.266836] (-) TimerEvent: {}
+[7.367375] (-) TimerEvent: {}
+[7.467860] (-) TimerEvent: {}
+[7.568406] (-) TimerEvent: {}
+[7.668900] (-) TimerEvent: {}
+[7.769477] (-) TimerEvent: {}
+[7.870168] (-) TimerEvent: {}
+[7.970641] (-) TimerEvent: {}
+[8.071126] (-) TimerEvent: {}
+[8.171754] (-) TimerEvent: {}
+[8.272642] (-) TimerEvent: {}
+[8.373204] (-) TimerEvent: {}
+[8.473764] (-) TimerEvent: {}
+[8.575031] (-) TimerEvent: {}
+[8.676066] (-) TimerEvent: {}
+[8.778612] (-) TimerEvent: {}
+[8.879194] (-) TimerEvent: {}
+[8.983522] (-) TimerEvent: {}
+[9.083947] (-) TimerEvent: {}
+[9.184349] (-) TimerEvent: {}
+[9.293438] (-) TimerEvent: {}
+[9.395596] (-) TimerEvent: {}
+[9.503956] (-) TimerEvent: {}
+[9.604484] (-) TimerEvent: {}
+[9.705047] (-) TimerEvent: {}
+[9.805647] (-) TimerEvent: {}
+[9.906407] (-) TimerEvent: {}
+[10.007288] (-) TimerEvent: {}
+[10.109216] (-) TimerEvent: {}
+[10.209811] (-) TimerEvent: {}
+[10.312749] (-) TimerEvent: {}
+[10.422022] (-) TimerEvent: {}
+[10.531789] (-) TimerEvent: {}
+[10.635737] (-) TimerEvent: {}
+[10.739867] (-) TimerEvent: {}
+[10.850549] (-) TimerEvent: {}
+[10.951002] (-) TimerEvent: {}
+[11.051540] (-) TimerEvent: {}
+[11.151944] (-) TimerEvent: {}
+[11.252518] (-) TimerEvent: {}
+[11.353061] (-) TimerEvent: {}
+[11.453510] (-) TimerEvent: {}
+[11.554150] (-) TimerEvent: {}
+[11.654671] (-) TimerEvent: {}
+[11.755088] (-) TimerEvent: {}
+[11.855711] (-) TimerEvent: {}
+[11.949279] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCelestialBody::CelestialBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.949738] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:6:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korbite_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.949966] (mas_solarsystem) StderrLine: {'line': b'    6 |  \x1b[01;31m\x1b[Korbite_\x1b[m\x1b[K = this->get_parameter("radus").as_double();\n'}
+[11.950283] (mas_solarsystem) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.950525] (mas_solarsystem) StderrLine: {'line': b'      |  \x1b[32m\x1b[Kwrite\x1b[m\x1b[K\n'}
+[11.954520] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:47:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.955129] (mas_solarsystem) StderrLine: {'line': b'   47 |     \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::Quaternion orientation;\n'}
+[11.955517] (mas_solarsystem) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.955812] (-) TimerEvent: {}
+[12.003038] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:48:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korientation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.003370] (mas_solarsystem) StderrLine: {'line': b'   48 |     \x1b[01;31m\x1b[Korientation\x1b[m\x1b[K.setRPY(0.0, 0.0, angular_pos_);\n'}
+[12.003572] (mas_solarsystem) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.032907] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:53:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kxx\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.033200] (mas_solarsystem) StderrLine: {'line': b'   53 |     transform_.transform.translation.x = \x1b[01;31m\x1b[Kx\x1b[m\x1b[K ;\n'}
+[12.033416] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.033607] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kxx\x1b[m\x1b[K\n'}
+[12.043776] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:54:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.044123] (mas_solarsystem) StderrLine: {'line': b'   54 |     transform_.transform.translation.y = \x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[12.044360] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.044559] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[12.055972] (-) TimerEvent: {}
+[12.057342] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:55:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kzz\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.057666] (mas_solarsystem) StderrLine: {'line': b'   55 |     transform_.transform.translation.z = \x1b[01;31m\x1b[Kz\x1b[m\x1b[K;\n'}
+[12.057947] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.066482] (mas_solarsystem) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kzz\x1b[m\x1b[K\n'}
+[12.086238] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:66:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KpublishMarker\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KCelestialBody\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.086577] (mas_solarsystem) StderrLine: {'line': b'   66 |  timer_pub_ =  this->create_wall_timer(std::chrono::milliseconds(50), std::bind(&CelestialBody::\x1b[01;31m\x1b[KpublishMarker\x1b[m\x1b[K, this));\n'}
+[12.086768] (mas_solarsystem) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.086955] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:42:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kxx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.087182] (mas_solarsystem) StderrLine: {'line': b'   42 |    double \x1b[01;35m\x1b[Kxx\x1b[m\x1b[K = radus_ * cos(angular_pos_);\n'}
+[12.087378] (mas_solarsystem) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.087560] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:43:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kyy\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.087766] (mas_solarsystem) StderrLine: {'line': b'   43 |     double \x1b[01;35m\x1b[Kyy\x1b[m\x1b[K = radus_ * sin(angular_pos_);\n'}
+[12.087947] (mas_solarsystem) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.098328] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:44:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kzz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.098697] (mas_solarsystem) StderrLine: {'line': b'   44 |     double \x1b[01;35m\x1b[Kzz\x1b[m\x1b[K = 0.0;\n'}
+[12.098967] (mas_solarsystem) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.143860] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CelestialBody::pubMarkerTransform()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.144156] (mas_solarsystem) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khaled/workspace/ros2ws/src/ros2/mas_solarsystem/src/celestial_body.cpp:83:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korbite_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.144349] (mas_solarsystem) StderrLine: {'line': b'   83 | transform_.transform.translation.x = \x1b[01;31m\x1b[Korbite_\x1b[m\x1b[K * cos(angular_pos_);\n'}
+[12.144534] (mas_solarsystem) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.144750] (mas_solarsystem) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kwrite\x1b[m\x1b[K\n'}
+[12.162177] (-) TimerEvent: {}
+[12.262860] (-) TimerEvent: {}
+[12.363452] (-) TimerEvent: {}
+[12.463924] (-) TimerEvent: {}
+[12.564440] (-) TimerEvent: {}
+[12.664889] (-) TimerEvent: {}
+[12.765385] (-) TimerEvent: {}
+[12.865835] (-) TimerEvent: {}
+[12.966389] (-) TimerEvent: {}
+[13.066796] (-) TimerEvent: {}
+[13.167254] (-) TimerEvent: {}
+[13.267767] (-) TimerEvent: {}
+[13.374184] (-) TimerEvent: {}
+[13.478213] (-) TimerEvent: {}
+[13.579183] (-) TimerEvent: {}
+[13.680380] (-) TimerEvent: {}
+[13.781132] (-) TimerEvent: {}
+[13.881702] (-) TimerEvent: {}
+[13.992058] (-) TimerEvent: {}
+[14.093155] (-) TimerEvent: {}
+[14.194149] (-) TimerEvent: {}
+[14.294677] (-) TimerEvent: {}
+[14.395182] (-) TimerEvent: {}
+[14.495710] (-) TimerEvent: {}
+[14.579090] (mas_solarsystem) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/celestial_body_node.dir/build.make:76: CMakeFiles/celestial_body_node.dir/src/celestial_body_node.cpp.o] Error 1\n'}
+[14.579708] (mas_solarsystem) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[14.595853] (-) TimerEvent: {}
+[14.696932] (-) TimerEvent: {}
+[14.798547] (-) TimerEvent: {}
+[14.899036] (-) TimerEvent: {}
+[14.999491] (-) TimerEvent: {}
+[15.100141] (-) TimerEvent: {}
+[15.200649] (-) TimerEvent: {}
+[15.301225] (-) TimerEvent: {}
+[15.402220] (-) TimerEvent: {}
+[15.502801] (-) TimerEvent: {}
+[15.603363] (-) TimerEvent: {}
+[15.612119] (mas_solarsystem) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/celestial_body_node.dir/build.make:90: CMakeFiles/celestial_body_node.dir/src/celestial_body.cpp.o] Error 1\n'}
+[15.612371] (mas_solarsystem) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/celestial_body_node.dir/all] Error 2\n'}
+[15.612726] (mas_solarsystem) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.618149] (mas_solarsystem) CommandEnded: {'returncode': 2}
+[15.703514] (-) TimerEvent: {}
+[15.753931] (mas_solarsystem) JobEnded: {'identifier': 'mas_solarsystem', 'rc': 2}
+[15.757498] (-) EventReactorShutdown: {}

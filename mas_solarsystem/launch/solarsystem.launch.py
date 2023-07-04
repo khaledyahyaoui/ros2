@@ -5,23 +5,69 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
-    params = PathJoinSubstitution(
+
+ 
+
+    solar_system_param = PathJoinSubstitution(
+
         [
+
             FindPackageShare("mas_solarsystem"),
+
             "cfg",
-            "pram.yaml"
+
+            "solar_system_param.yaml"
+
         ]
+
     )
+
+ 
+
     sun_node = Node(
+
         package="mas_solarsystem",
+
         executable="celestial_body_node",
-        name="soleil_node",
+
+        name="sun_node",
+
         parameters=[
-            params
+
+            solar_system_param
+
         ],
+
         remappings=[
+
             ("/marker", "/sun_marker"),
+
         ],
+
         output="screen"
+
     )
-    return LaunchDescription([sun_node])
+    merc_node = Node(
+
+        package="mas_solarsystem",
+
+        executable="celestial_body_node",
+
+        name="merc_node",
+
+        parameters=[
+
+            solar_system_param
+
+        ],
+
+        remappings=[
+
+            ("/marker", "/mercure_marker"),
+
+        ],
+
+        output="screen"
+
+    )
+ 

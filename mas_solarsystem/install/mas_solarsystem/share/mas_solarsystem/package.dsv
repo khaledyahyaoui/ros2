@@ -1,0 +1,5 @@
+source;share/mas_solarsystem/local_setup.bash
+source;share/mas_solarsystem/local_setup.dsv
+source;share/mas_solarsystem/local_setup.ps1
+source;share/mas_solarsystem/local_setup.sh
+source;share/mas_solarsystem/local_setup.zsh
